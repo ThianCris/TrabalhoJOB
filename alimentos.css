@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+.container {
+    padding: 20px;
+}
+.alimentos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.alimento {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: calc(33.333% - 20px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.alimento img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+.alimento h3 {
+    margin: 10px 0 5px;
+}
+.alimento p {
+    margin: 0;
+}

@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #236b26;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+main {
+    padding: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.donate-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #258528;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #1f7522;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
